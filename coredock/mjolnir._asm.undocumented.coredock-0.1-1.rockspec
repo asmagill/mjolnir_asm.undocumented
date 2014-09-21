@@ -35,7 +35,7 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["mjolnir._asm.undocumented.coredock"] = "coredock/init.lua",
-    ["mjolnir._asm.undocumented.coredock.internal"] = "coredock/internal.m",
+    ["mjolnir._asm.undocumented.coredock"] = "mjolnir_asm.undocumented/coredock/init.lua",
+    ["mjolnir._asm.undocumented.coredock.internal"] = "mjolnir_asm.undocumented/coredock/internal.m",
   },
 }
